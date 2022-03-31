@@ -8,7 +8,7 @@ namespace ContaCorrenteApostila.ConsoleApp.ModuloConta
 {
     internal class Conta
     {
-        private double saldo;
+        protected double saldo;
 
         public double Saldo
         {

@@ -8,6 +8,9 @@ namespace ContaCorrenteApostila.ConsoleApp.ModuloConta
 {
     internal class ContaPoupanca : Conta
     {
-
+        public void Atualizar(double taxa)
+        {
+           this.saldo += this.saldo * taxa * 3;
+        }
     }
 }
