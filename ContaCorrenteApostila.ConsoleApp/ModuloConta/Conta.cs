@@ -20,5 +20,14 @@ namespace ContaCorrenteApostila.ConsoleApp.ModuloConta
             this.saldo += valor;
         }
 
+        public void Sacar(double valor)
+        {
+            this.saldo -= valor;
+        }
+
+        public void Atualizar(double taxa)
+        {
+            this.saldo += this.saldo * taxa;
+        }
     }
 }
