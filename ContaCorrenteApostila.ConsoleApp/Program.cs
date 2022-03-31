@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ContaCorrenteApostila.ConsoleApp
+namespace ContaCorrenteApostila.ConsoleApp.ModuloConta
 {
     internal class Program
     {
